@@ -1,0 +1,22 @@
+- Какие типы данных существуют в js?
+  -  string,  number, boolean, Null, undefined, Object, BigInt, Symbol
+  -  Map, Set, Function, Array, 
+- Какие значения может возвращать оператор typeof?
+- Что такое статическая и динамическая типизация?
+  - Какая типизация реализована в JS?
+- Что такое компилируемые и интерпретируемые языки?
+  - Каким языком будет JS?
+
+- В чем разница между сохранением по ссылке и сохранением по значению?
+- Чем примитивные типы отличаются от не-примитивных?
+- Почему примитивные типы имеют методы? Например, 'hello'.toUpperCase() => 'HELLO'
+  - https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/boxing/theory_unit
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf
+- В чем разница между == и ===?
+  - https://262.ecma-international.org/12.0/#sec-abstract-equality-comparison
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+
+- В чем разница между стрелочной функцией и обычной?
+- Как проверить, что объект это объект?
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
