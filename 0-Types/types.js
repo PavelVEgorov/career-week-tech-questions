@@ -33,22 +33,23 @@
 
 /* Types questions */
 {
-  console.log({} === {});
-  console.log({} == {});
-  console.log([] == {});
-  console.log([] === []);
-  console.log({ valueOf: () => 3 } == 3);
-  console.log([] == ![]);
-  console.log([1, 2, 3] == '1,2,3');
+  // console.log({} === {}); // false
+  // console.log({} == {}); //false
+  // console.log([] == {}); // false
+  // console.log([] === []); // false
 
-  // console.log('0' == 0);
-  // console.log(true == 1);
-  // console.log(true == 2);
-  // console.log(0 == -0);
-  // console.log(false == 0);
-  // console.log(false == -0);
-  // console.log(NaN == false);
-  // console.log(NaN == NaN );
+  // console.log({ valueOf: () => 3 } == 3); // false
+  // console.log([] == ![]); // false || true
+  // console.log([1, 2, 3] == '1,2,3'); // true
+
+  console.log('0' == 0); // true
+  console.log(true == 1); // true
+  console.log(true == 2); // true
+  console.log(0 == -0); // true
+  console.log(false == 0); // true
+  console.log(false == -0); // true
+  console.log(NaN == false); // false | true
+  console.log(NaN == NaN ); // false
 
   // console.log(NaN + 1);
   // console.log(undefined + 1);
@@ -103,3 +104,4 @@
 // function objectIs(val1, val2) {
 //   // ...напишите код здесь
 // }
+

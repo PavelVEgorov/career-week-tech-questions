@@ -1,12 +1,7 @@
 // // 1
-
-
 // console.log({ johnny, suzie });
 // sayBye();
 // sayHi();
-
-// var johnny = 'Johnny';
-// const suzie = 'Suzie';
 
 // var sayHi = function () {
 //   console.log('Hi!');
@@ -29,16 +24,16 @@
 
 // foodThoughts();
 // console.log(favoriteFood);
-//
+
 // // 3
 
-console.log(y);
-console.log(z);
-console.log(x);
+// console.log(y);
+// console.log(z);
+// console.log(x);
 
-y = 'y';
-let x = 'x';
-var z = 'z';
+// y = 'y';
+// let x = 'x';
+// var z = 'z';
 
 // // 4
 //

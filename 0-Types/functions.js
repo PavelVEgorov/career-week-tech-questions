@@ -11,31 +11,19 @@
   // function bar() {
   //  console.log(arguments)
   // }
+
   // const barfoo = () => {
   //   console.log(arguments) // undefined
   // }
 
   // 4. Стрелочные функции не могут быть использованы в качестве конструкторов
-  // const Animal = (name, age) => {
+  // function Animal(name, age) {
   //   this.name = name;
   //   this.age = age;
   // }
-  // new Animal() // error
+  // console.log(new Animal())
 
-  // 5. Метод попадет в прототип / метод попадет в сам экземпляр класса
-  // class Hero {
-  //   print() {}
-  // }
-  
-  // const batman = new Hero()
-  // batman.print() // from Hero.prototype
-  
-  // class Hero {
-  //   print = function() {};
-  // }
-  
-  // const batman = new Hero()
-  // batman.print() // from batman object 
+  // 5. 
 }
 
 // NOTE: Training
