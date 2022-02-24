@@ -30,12 +30,12 @@
 
 /* Function questions */
 {
-  // var n = 1;
-  // function f(n) {
-  //   n = 3;
-  // }
-  // f(n);
-  // console.log(n); // ?
+  var n = 1;
+  function f(n) {
+    n = 3;
+  }
+  f(n);
+  console.log(n); // ?
 
   
   // var obj = { a: 1 };
